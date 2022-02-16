@@ -2,9 +2,11 @@ package co.escuelaing.User.Dto;
 
 
 public class UserDTO {
+
     private String name;
     private String email;
     private String lastName;
+    private String password;
 
     public String getName() {
         return name;
@@ -28,5 +30,13 @@ public class UserDTO {
 
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+
+    public String getPassword(){
+        return password;
+    }
+
+    public void setPassword(String password){
+        this.password = password;
     }
 }
