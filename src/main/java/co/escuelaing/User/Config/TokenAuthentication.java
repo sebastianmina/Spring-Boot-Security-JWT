@@ -1,8 +1,8 @@
 package co.escuelaing.User.Config;
 
 import org.springframework.security.authentication.AbstractAuthenticationToken;
-import org.springframework.security.authentication.event.AbstractAuthenticationEvent;
-import org.springframework.security.authentication.AbstractAuthenticationToken;
+//import org.springframework.security.authentication.event.AbstractAuthenticationEvent;
+//import org.springframework.security.authentication.AbstractAuthenticationToken;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 

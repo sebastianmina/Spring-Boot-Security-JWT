@@ -6,8 +6,8 @@ public class LoginDTO {
     static String password;
 
     public LoginDTO( String email, String password ) {
-        this.email = email;
-        this.password = password;
+       // this.email = email;
+        //this.password = password;
     }
 
     public static String getEmail() {

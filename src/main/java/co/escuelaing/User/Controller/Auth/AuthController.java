@@ -27,7 +27,7 @@ import java.util.Date;
 
 public class AuthController {
 
-    @Value( "${app.secret}" )
+    @Value( "mina654" )
     String secret;
 
     private final UserService userService;
