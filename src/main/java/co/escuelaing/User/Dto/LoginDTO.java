@@ -2,19 +2,19 @@ package co.escuelaing.User.Dto;
 
 public class LoginDTO {
     
-    String email;
-    String password;
+    static String email;
+    static String password;
 
     public LoginDTO( String email, String password ) {
         this.email = email;
         this.password = password;
     }
 
-    public String getEmail() {
+    public static String getEmail() {
         return email;
     }
 
-    public String getPassword() {
+    public static String getPassword() {
         return password;
     }
 }

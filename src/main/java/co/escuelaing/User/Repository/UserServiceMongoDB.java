@@ -53,4 +53,10 @@ public class UserServiceMongoDB implements UserService {
         } 
         return null; 
     }
+
+    @Override
+    public User findByEmail(String email) {
+        // TODO Auto-generated method stub
+        return userRepository.findByEmail(email);
+    }
 }
