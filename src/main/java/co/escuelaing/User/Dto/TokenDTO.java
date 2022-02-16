@@ -1,4 +1,4 @@
-package co.escuelaing.User.Controller.Auth;
+package co.escuelaing.User.Dto;
 
 import java.util.Date;
 
